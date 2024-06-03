@@ -57,3 +57,5 @@
      userTwo.email = "girish@google.com"
      console.log(userOne.email);
      console.log(userTwo.email);//it changes original value, becoz in heap type memory , it provide memory reference to interfare in ori value//
+
+  to Better understand concepts ,see link: https://excalidraw.com/#json=ViTGbd1gTCf4PiZnvxD7F,zGYtfVPfQJFPcitvm9DCfw
