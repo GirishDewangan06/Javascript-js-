@@ -36,4 +36,24 @@
      }
      console.log(typeof myobj);
 
+     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     //on the basis of allocation, memory divides into 2 parts:1)Stack 2)Heap
+     //1)Stack--(primitive type)--copy of variable
+     let myNamee = "Girish Dewangan"
+     let broName = myNamee 
+      broName = "Durgesh"
+     console.log(myNamee);
+     console.log(broName);
+
+     //2)Heap--(Non Primitive type)--direct allocats memory location , changes happens in original value
+
+     let userOne ={
+      email:"user@google.com",
+      upi: "user@ybl",
+     }
+
+     let userTwo = userOne
      
+     userTwo.email = "girish@google.com"
+     console.log(userOne.email);
+     console.log(userTwo.email);//it changes original value, becoz in heap type memory , it provide memory reference to interfare in ori value//
