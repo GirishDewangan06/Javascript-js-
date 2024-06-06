@@ -24,7 +24,7 @@
    
      //array//return_type 'object'
      const heroes = ["Shaktimaan","NagRaj", "Doga"]
-     
+     console.log(typeof heroes);
      //object(which is within {})//returntype 'object'
     const myobj = {
        Name : "Girish",
@@ -36,8 +36,18 @@
      }
      console.log(typeof myobj);
 
+
+
+
+
+
+
+
+
+
      //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
      //on the basis of allocation, memory divides into 2 parts:1)Stack 2)Heap
+     
      //1)Stack--(primitive type)--copy of variable
      let myNamee = "Girish Dewangan"
      let broName = myNamee 
